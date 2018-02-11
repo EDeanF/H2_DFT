@@ -1,0 +1,4 @@
+Solve the Hydrogen molecule (H2) as a function of bond length
+
+We use use the local density approximation (LDA) as paramaterized by Perdew and Zunger
+to estimate and exchange and correlation potentials in the Kohn-Sham equation
