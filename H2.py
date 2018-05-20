@@ -1,20 +1,24 @@
-# solves Schrodinger's Equation for the hydrogen molecule
-# using Kohn-Sham Equations under LDA
-# Author: E-Dean Fung (ef2486) Date: Nov 2015
+"""
+solves Schrodinger's Equation for the hydrogen molecule
+using Kohn-Sham Equations under LDA
+Author: E-Dean Fung (ef2486) Date: Nov 2015
 
-# comparison with Hydrogen
-	# potential is multiplied by 2
-	# must distinguish between total density and density of single electron
+comparison with Hydrogen
+potential is multiplied by 2
+must distinguish between total density and density of single electron
+
+
+Naming conventions
+WAVE = wavefunction in vector form
+WAVEF = wavefunction in functional form
+DENS = density function
+"""
+
 
 import os , sys, math, corr, fortsum, numpy as np, matplotlib.pyplot as plt
 from scipy import linalg , pi , arange , zeros ,e , sqrt, log
 
-# syntax
-# WAVE = wavefunction in vector form
-# WAVEF = wavefunction in functional form
-# DENS = density function
-
-	#=======================#
+        #=======================#
 	# Initialize parameters #
 	#=======================#
 
