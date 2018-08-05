@@ -380,9 +380,9 @@ plt.close()
 
 # plot energy v distance
 
-l1, = plt.plot(sep,Etotal_noint)
-l2, = plt.plot(sep,Etotal_x)
-l3, = plt.plot(sep,Etotal_xc)
+l1, = plt.plot(sep,Etotal_noint, color='b')
+l2, = plt.plot(sep,Etotal_x, color='g')
+l3, = plt.plot(sep,Etotal_xc, color='r')
 plt.plot(optD_noint,optE_noint, 'o', color='b')
 plt.plot(optD_x,optE_x, 'o', color='g')
 plt.plot(optD_xc,optE_xc, 'o', color='r')
